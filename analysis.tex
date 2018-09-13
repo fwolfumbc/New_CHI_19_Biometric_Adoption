@@ -1,0 +1,306 @@
+\section{Analysis}
+
+% The advantages of biometrics are largely self-evident. Users are relieved of
+% onerous memorization and data entry tasks by way of a quick eyes-free unlocking
+% gesture, that promises high security. We looked for mitigating factors to
+% acceptance of these methods, which might interact with users' understanding of
+% risk to their online data and transaction. 
+Several themes were apparent in the
+responses of our expert and non-expert participants (summarized in
+Table~\ref{tab:overview}. As shown in Table~\ref{tab:BAM_freq}, users generally
+favored fingerprint recognition, either iOS (22 total users, 10 experts),
+Android (13 total users, 7 experts), or Windows (7 total users, 5
+experts). Facial recognition use was still relatively scarce, and its use was
+divided between Apple FaceID and older Windows facial recognition. Several
+experts users had past experience using or developing advanced biometric
+security controls, including body weight, iris scanning, and hand size measures.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htbp]
+\scriptsize
+    \centering
+
+    \begin{tabular}{r | c | c | c}
+%         \hline
+{\bf Biometric method} & {\bf Experts} & {\bf Non-ex.} &  {\bf Total} \\ \hline
+ Apple TouchID & 10 & 12 & 22 \\
+ Apple FaceID & & 1 & 1 \\ 
+ Android fingerprint & 7 & 5 & 13 \\ 
+ Windows fingerprint & 5 & 7 & 13 \\
+ Windows facial & 1 & & 1 \\  
+    \end{tabular}
+    \caption{Frequency of biometric authentication methods, by participant experience}
+\label{tab:BAM_freq}
+\end{table}
+
+% \end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+At a high level, we found that experts held an expected higher degree of concern
+towards data compromise than non-experts. This concern shaped both their
+interest in trying effective new authentication and their objections towards
+trusting mobile platforms at all with more sensitive transactions. However, we
+also found significant misunderstanding in both groups about how biometric
+authentication is implemented. Both groups feared compromise of their biometric
+signatures, and experts, in particular, tended to project their prior knowledge of
+other network vulnerabilities onto to this fear.
+%break down count of codes/observation headings for the main points stated
+
+\subsection{Experts and non-experts both misunderstand biometric unlocking as primary}
+While biometrics may function in operating systems as a secondary method of
+authentication to back up other what-you-know passcodes, both non-expert and
+expert users (50\%) often misunderstood the biometric method to instead be the
+primary means of unlocking their mobile device (Cohen's Kappa (\(\kappa\)) =
+0.86). This view was also evenly split between the two groups (held by 9 experts
+and 9 non-experts). {\em This view was held at a higher rate than any other
+code.} \reminder{should we add some notes about the impact of this?}
+
+% However, in contrast to other lower scoring codes that actually evoked much
+% more discussion, this common misconception of the underlying design of the
+% users' biometric authentication did not generally garner much explanation. One
+% of two exceptions (a
+
+% AJA --- I removed this, but can be added back. I'm not sure what the
+% temporality of the event added to the discussion.
+%
+% One expert user (p05, a mobile technology company CTO) who did correctly
+% describe the relationship between his laptop's secondary biometric and primary
+% passcode unlocking methods had only begun using method recently, 2-3 months
+% prior. However, the user had to examine the configuration carefully to address
+% security stipulations within work-related contract requirements.
+
+\subsection{Device sharing with passcodes and biometric signatures}
+A number of participants (n=8, 4 experts) discussed how both biometrics and
+passcodes fit into their approach to physically sharing access to their
+mobile devices with others (Cohen's Kappa coefficient (\(\kappa\)) = 0.86). For
+example, several non-experts reported cross-registering fingerprints with
+partners on their phones to speed up routine tasks and for potential
+emergencies. However, all expert participants reporting this type of device
+sharing with their spouses, partners, or children (n=4) preferred only sharing
+conventional PIN passcodes, despite using biometric unlocking for
+themselves. One non-expert (p37) reported deliberately not sharing any passcodes
+or biometric co-registering because he did not want his children accessing his
+devices (``I don't want them buying stuff"), and to avoid having to reset the
+authentication if a trusted relationship ended. Another non-expert (p38) felt
+that iOS FaceID was more secure for sharing, on the assumption that faces seemed
+more unique, despite acknowledging not knowing the ``rhyme or reason ...behind
+the science," but like other participants chose biometric co-registration for
+convenience rather than
+security. %A non-expert participant (p08) related his device co-sharing arrangement with his girlfriend, in which they co-registered fingers on both of their phones for convenience when together. The participant also stated that he had registered all of his fingers, indicating his overall comfort with the registration process. %Another non-expert (p38) stated that it was worth re-co-registering his girlfriend's fingerprints on his device, although updates seemed to erase only hers.
+%Participants also described sharing passcodes as an alternative to co-registering biometrics, even if they liked using the feature themselves. This was described as convenience, rather than reluctance to accept co-registration because of social or security concern. 
+
+Participants who only shared PINs with others, versus biometric co-registration,
+described their preference as simply convenience rather than reluctance to
+co-register because of social or security concern. For example, an expert
+participant (p25, an academic security researcher and application developer)
+described telling his PIN to his children while driving so they could control
+music in the car without distracting him. {\em However, it is possible that
+co-registration is not a familiar option, given that other expert participants
+described simply being unaware that multiple fingers could actually be
+registered.}
+
+Participants who had tried and discarded biometric authentication still shared
+passcodes, even if they did not use PINs. A non-expert university professor,
+p32, had stopped using Android fingerprint recognition stating, ``I really hate
+it, a lot" because of frequent false negatives, but still shared grid pattern
+shapes that could be described verbally with her
+husband. %This arrangement was deemed necessary to allow routinely looking things up for each other on the other's phone and potential emergency tasks.
+
+\subsection{Experts reluctantly more influenced by BYOD requirements}
+A majority of those reporting that work-related requirements influencing their
+authentication choices were experts (6 of 8, Cohen's Kappa coefficient
+(\(\kappa\)) = 1.00). % We acknowledge that this may also reflect the higher
+% average age of the expert cohort (50 years old, versus 33 for non-experts),
+% which could place them further along in technology-related careers that help
+% produce this effect, rather than it being solely a product of their network
+% security exposure.
+Of those experts, several were required to add authentication
+through contract or employment conditions (Cohen's Kappa coefficient
+(\(\kappa\)) = 0.69). One expert (p04, a government security researcher)
+explained her caution towards authentication choices for work related devices,
+stating ``I'm very cognizant at work that if I make a poor security decision it
+doesn't just affect me, it can affect the whole organization. So, I'm probably
+just more vigilant... just because of the potential consequences... If there was
+a big breach and I was responsible for for it that would be really bad."
+
+Experts also dominated 76.9\% of the commentary made about recent changes to
+one's authentication approach (n=13, 10 experts). The mentioned changes included
+both usability-driven actions (e.g. p01, a cybersecurity consultant, who stopped
+using buggy Windows face recognition on his laptop) and security-driven actions
+(e.g. p02, , a military cybersecurity developer, adding two-factor
+authentication to an account). However, in several cases biometric adoption
+imposed by work requirements was reluctant. For example, an expert (p05) was
+actually very skeptical of how biometric authentication was implemented for his
+Windows work devices (``the entire integration needs to be done differently''),
+but was required to apply them, stating ``I try to be secure, but I had to use
+them [biometrics] for work.''
+% and ``I guess I use them because I need to use them, and I try to keep as secure as possible.''
+
+%Similarly, another expert (p04) also expressed concern about biometric registration required by his employer for authentication, stating, ``Obviously, they have my fingerprints at work, but that's a requirement of the job. So I know its limited in its scope as to who has access to that... so I hope.'' 
+
+% Another expert (p18, an industry security developer) specifically did not accept work requirements for his phone, because he felt their iPhone would never be a secure enough platform for work, compared to their old Blackberry.
+
+\subsubsection{Software automation of authentication}
+A subset of expert users was asked specifically about their willingness to allow
+continuous authentication to use behavioral data to control unlocking, and about
+their willingness to use third party software to automatically configure their
+security settings in this way. The latter issue would involve a product such as
+Samsung Knox~\reminder{cite} continually reconfiguring a device's security settings based on
+risk measures such as location and user
+behavior. %al measurements) rigor of the device based on its risk estimate of the user's perceived location.
+
+One expert (p04) summarized the prevailing outlook, stating that she liked the
+idea of software assistance with security, but lacked requisite trust in
+autonomous change of security settings. She stated, ``I would prefer [third
+party continuous authentication software] make a best guess, then give me a
+choice... Even though I'm a computer science person I don't really trust
+automation 100\%.'' Participants were asked to compare their level of concern
+between potential compromise of their behavioral data and their biometric data
+(as used in either case for authentication).
+%Participant 04 again expressed the prevailing expert outlook, explaining, ``I think behavioral data is already being used. I feel like its already being done [sold or compromised]... I feel more strongly about my bio[metric] data that can unlock a lot more than the behavioral data. I think it would be a much greater threat.'' 
+%Another expert (p05) surmised that trying to withhold this type of behavioral data that might be used for continuous authentication for privacy reasons was already not realistic, stating, ``The cat's already out of the bag." Experts considered this data to be compromised by design as part of the bargain between users and mobile software service providers, but described ``always trying to understand'' what that data leakage entails. Participant 04 concurred, stating, ``I think behavioral data is already being used. I feel like its already being done [i.e. sold or compromised]... I feel more strongly about my bio[metric] data that can unlock a lot more than the behavioral data. I think it would be a much greater threat.''
+% Despite feeling that the data in question was compromised by design, as part of the bargain between users and software mobile providers, the participant still wanted to know what was being collected, and stated that he was ``always trying to understand what that is."
+
+%\subsubsection{Reluctant adoption of biometrics for work}
+%Participants citing work requirements as having influenced their device choices was mostly exclusive to experts (n=8, 6 experts). Experts also dominated 76.9\% of the mentions of making recent changes made to authentication (n=13, 10 experts). The changes mentioned included both usability-driven actions (e.g. p01, a cybersecurity consultant, stopping use of Windows face recognition on a laptop) and security-driven actions (e.g. p02, , a military cybersecurity developer, adding two-factor authentication to an account). In several cases, however, biometric adoption imposed by work requirements was reluctant. For example, an expert (p05) was actually very skeptical of how biometric authentication was implemented for his Windows work devices (``the entire integration needs to be done differently''), but was required to apply them, stating ``I try to be secure, but I had to use them [biometrics] for work.'' 
+%and ``I guess I use them because I need to use them, and I try to keep as secure as possible.'' 
+%With regard to registering his biometric signature for work, p04 (expert) stated, ``Obviously, they have my fingerprints at work but that's a requirement of the job, so I know its limited in its scope as to who has access to that...so I hope.'' 
+%Another expert (p18, an industry security developer) specifically did not accept work requirements for his phone, because he felt their iPhone would never be a secure enough platform for work, compared to their old Blackberry. 
+
+\subsubsection{Biometrics as added protection for sensitive local storage}
+Others felt the need to apply biometrics to improve the physical security of
+their devices (laptops, primarily) when those devices were used to locally store
+sensitive data in order to avoid cloud storage (p01 and p15, both industry and
+government information security consultants with 20 years of
+experience). Another (p25, a university security researcher) was frustrated that
+their university employer dictated minimum authentication standards for devices
+accessing work email, because ``I know things about the devices they [the
+employer] doesn't.'' Similarly, another expert (p30, an academic security
+researcher) was uncomfortable using biometrics alone for unlocking a work
+device, unless it also had allowed an alphanumeric password for disk encryption.
+%A non-expert (p27) subject to these work requirements was comfortable with BAM, despite not having ``considered the nuances,'' because they ``knew the Fed [U.S. federal government] uses it.''
+
+\subsection{Experts more likely than non-experts to try out biometrics immediately} 
+We examined participants' descriptions of the interval between acquiring a
+biometric-capable mobile device and setting up the feature (n=14, 11
+experts). This is of interest assuming that users may have security-informed
+motivations for either using immediately or avoiding a new authentication
+method. A preponderance of the experts interviewed (57.9\%) reported at least
+trying out the biometric unlocking feature immediately when it was first
+available (Cohen's Kappa coefficient (\(\kappa\)) = 0.84). Given the even split
+between using Android and iOS devices for experts, this effect is likely a response to 
+several aspects of the expert cohort. Firstly, the expert cohort had a greater rate of
+direct familiarity with biometrics (21\% had prior direct experience with
+biometrics outside of unlocking a personal mobile device, through purposes such
+as using or developing building access controls) (Cohen's Kappa coefficient
+(\(\kappa\)) = 1.00). Secondly, it might be assumed that experts, as a result of
+their general training and experience with security, would be more likely to
+know the usability and security difficulties associated with recalling strong
+what-you-know passcodes and want a better what-you-are biometric
+alternative.
+
+\subsubsection{Expert view biometrics positively post-adoption}
+We found that experts were almost evenly divided on whether they initially
+thought biometric authentication would be a positive (42.1\%) or negative
+(31.6\%) feature to offer consumers, although a majority of all participants
+favoring the idea were experts (n=13, 8 experts) (Cohen's Kappa coefficient
+(\(\kappa\)) = 0.80). Prolonged exposure  (primarily
+fingerprint recognition, see Table \ref{tab:BAM_freq}) appears to have put
+experts at ease. ``It's pretty close to a must-have [feature],'' stated one
+(p30, a university security researcher) ``it's just so doggone convenient.''
+When asked whether they now, having used biometric unlocking, have or would
+recommend it to others, experts were more favorable than not, at a rate of 4:1
+(Cohen's Kappa coefficient (\(\kappa\)) = 0.95). It is also possible that the
+higher rate of immediate use of biometrics in experts is attributable to their
+slightly higher age and the commensurate exposure to technology that could
+support exploring and trying out new features. One expert (p04) stated, ``I
+definitely went to the TouchID as a preferred authorization method and that was
+just because of my own experience and knowledge of how passwords can become
+co-opted very easily. That influenced me, once I had that available on my iPhone
+to just immediately enable that feature... That's based on my work experience
+and what I can see and the problems I see people having.''
+
+\subsubsection{Non-experts more likely to report waiting to try biometrics}
+A slightly higher rate of non-experts (31.6\%) also reported having deliberately
+waited to try out their biometric unlocking features, compared to the rate of
+reported initial avoidance in experts (26.3\%). In the case of experts this
+reluctance could be attributable to a generally more polarized opinion on
+security matters. Non-experts' may have a relative lack of technological
+experience (due to their lower average age) that produces caution or
+indifference towards new and unfamiliar security features.  One non-expert (p27)
+felt it best to wait to try the fingerprint unlocking features on both his
+Android phone and iOS tablet out of a non-specific sense of security caution to
+``let everyone throw everything at it first.'' Another (p07) initially felt that
+the TouchID feature on her iPhone was an unnecessary ``stupid rich person's
+feature.''
+%and wondered, ``who would do that?'' 
+She eventually tried the feature after a year, to ``keep in touch, in the same boat with technology,'' but still wondered, ``is it really safe?'' and would its use make ``make my brain lazy.''
+%this adoption was ``mind blowing,'' the user worried the feature might ``make my brain lazy.''
+
+\subsection{Experts were more cautious towards securing sensitive data with biometrics}
+At the same time that experts demonstrated more eagerness to try out biometric unlocking, they also distrusted it to secure their most sensitive data. While only a portion of the total cohort (18.4\%) reported avoiding biometrics entirely for securing a highly sensitive device, that view was primarily held by experts (n=7, 5 experts), that represent over a quarter of the expert cohort. Similarly, concern over sale or leakage of one's biometric signature was a view only reported by experts (n=6 experts), often stating variations on ``you can't grow a new thumb (p15, a government and industry security developer) (Cohen's Kappa coefficient (\(\kappa\)) = 1.00).'' An expert (p04) stated, ``I don't know that people think about [trusting a device to store their fingerprint data], but if it's a foreign government... I might be a little more concerned. There's some acceptability issues, depending on who has access to your info.'' ``The fact that biometrics can be forced out of you, against your will... I shy away from those,'' another expert (p05) stated, adding ``I would never use a biometric method alone as the primary, without backup, on anything holding secure information... if a fingerprint is the only thing between you and the keys to the kingdom, that's a bad design.'' Further, the user's trust was limited by knowledge of who was providing the device and services, saying, ``Two companies I don't place my trust in are Apple and Google.'' 
+
+\subsubsection{Experts much more reluctant to biometrically authorize financial applications}
+In addition to these views, using biometrics to authorize financial applications (including bank apps and payment apps such as PayPal or Venmo) was much less prevalent in experts (Cohen's Kappa coefficient (\(\kappa\)) = 0.77). 39.5\% of all participants used biometrics to authorize these types of financial applications, but non-experts outpaced experts in allowing this at a rate exceeding 3:1. Interestingly, only one non-expert (p09) explicitly pointed out that biometric unlocking of his banking application allowed him to use a longer complex passcode for better security because he did not have to remember it or write it down. Demonstrating this added level of concern with financial transactions on a mobile platform, expert p05 stated, ``After having my wife's phone stolen and the credit card info extracted, I, you know, wipe down any device I'd ever used for any type of transaction... Basically reinstall the OS. Wipe it down. Remove any transaction history, and when that's not possible I use increasing layers of disk encryption to protect the files that are stored.'' Participants were also asked if security features were part of their decision making in selecting their current mobile devices. Participants in general were almost twice as likely to have voiced affirmative responses (n=17, 12 experts) as negative responses (n=9, 3 experts), but experts specifically were four times as likely to cite concern with security features. 
+
+\subsubsection{Biometric adoption interacting with experts' distrust towards mobile platforms}
+These findings of both greater expert curiosity and concern towards authentication suggest that experts view biometrics with a sort of `accept but restrict' approach, in which quick adoption based on prior familiarity or principles of secure computing are balanced with doubt towards the trustworthiness of mobile platforms in general. Indicative of this, when asked which was more secure, of their laptop (n=11, 5 experts) or smartphone (n=4, 1 expert), experts trusted the desktop operating systems over mobile at a rate of 5:1 (Cohen's Kappa coefficient (\(\kappa\)) = 0.64). There is ``less idea of what's going on in the background'' of his Motorola Android phone, versus a PC, one expert (p30) related. Some experts also expressed preferences in mobile platform based on configurability for security. For example, p05 stated ``I would pick one [Android] over the other because I believe I understand how to secure its attack surfaces more efficiently.''
+
+\subsubsection{Experts and non-experts both aware of biometric spoofing}
+However, while experts offered detailed descriptions of threat models of data leaks or hacking that amplified their distrust, awareness of risks to biometrics was not exclusive to that cohort at all. In response to late-added question specifically about biometric-spoofing stories, an almost equal number of non-experts and experts (n=7, 3 experts) could recall examples. Experts could place these stories in context (for example, p30 stating, "we're in an arms race with gummy bears [used to spoof fingerprints]"), but macabre news reports of amputated fingers being used in criminal heists (p29, non-expert) and YouTube videos of fake heads unlocking phones (p27, non-expert) appeared to have also made a mark with non-experts. More specifically, an equal number (n=4, 2 experts) of expert and non-expert participants also stated in almost exactly similar terms that they did not feel like they were a ``high value target'' that would warrant elaborate biometric-spoofing. One expert, (p28) stated, ``I generally don't hand around those types of people [who might be targeted with elaborate spoofing techniques]. They build rockets.'' 
+
+\subsubsection{Apprehension towards facial recognition}
+The number of current facial recognition users was low compared to fingerprint recognition. Participants mentioned two factors contributing to this. Apple FaceID was only recently released at the time of this inquiry, and some curious iOS users were not ready to upgrade to a compatible device. Other laptop-based facial recognition users had stopped use because of frequent false negatives. 18.4\% of all participants (n=7, 5 experts), who were current or prior users of other forms of biometric unlocking, expressed that they were already resolved to not immediately adopt facial recognition. A non-expert (p27) felt the approach was ``unnecessarily personal,'' and might be manipulatable if Facebook's algorithms for facial recognition were also hacked. One expert (p26, an academic security researcher) echoed a common sentiment that new technologies were generally untrustworthy, and he felt it ``would be better to wait to see how things play out.''
+
+Given this lack of recent and direct experience with facial recognition, it evoked doubt and concern about its security that fingerprint recognition had largely overcome in the same users. The acceptance of one biometric method did not readily transfer to another, even on the same device. Experts who had overcome their doubts and become fingerprint recognition users still expressed similar concerns about facial recognition. Participant 05, a recent user of fingerprint recognition, saw facial recognition as ``still not controllable." Another expert (p35) thought it ``strange for social norms," easier to fake, and potentially discriminatory. Even participants who had accepted facial recognition expressed doubt. A non-expert (p09) was dubious of the feature ``doing lots of crazy stuff,'' % that he would be ``lying if I said I knew what all,'' he also understood that his ``face hash is local and anonymous.'' Despite this context, he still 
+and found the prospect of his facial signature being compromised ``terrifying.''
+
+\subsubsection{Context on fear of biometric signature compromise}
+It is worth observing that major concerns that security conscious users commonly expressed about face and fingerprint recognition, namely that it could leak or be stolen off the device (rendering their face or fingerprint forever unusable), are not very likely. For example, Apple's TouchID feature (used by 57.9\% of the participants, the most commonly used biometric method) is stated to only collect the scan of the user's finger in a format that is not reconstructable as a fingerprint scan. The imagery is also not tagged with that user's identity, not uploaded anywhere off the device, and is only stored and encrypted locally. A secure boot chain, system software authorization processes, and unique session keys also control how an Apple device's processor and Secure Enclave exchange information about the fingerprint scan, lessening the likelihood that malware could easily spoof a component to obtain sensitive biometric information \cite{iOS_security}. 
+Despite these safeguards, concern with biometric signature compromise  transferred to experts' approach to setting up deivce access. For example, several experts (p15 and p30) deliberately limited the number of fingers they would register, either to have a reserve fingerprint if all others were compromised by a data leak or to reduce the perceived possibility of false positives. This fear of signature data leaks was acute for some experts. One expert (p30) explained, ``I just assume it's going to get out at some point [his biometric signature]... I do think I will regret it. Hopefully not soon. Maybe it will only be iOS users.''
+
+\subsubsection{Impact of 2015 San Bernardino shooting story on both experts and non-experts}
+News accounts of law enforcement efforts to unlock an iPhone belonging to a suspect in the 2015 San Bernardino shooting also seemed to have made an impression. 10.5\% of respondents (n=4, 1 expert) mentioned this as positively impacting their sense of security with their own device, since law enforcement appeared initially to be unable unlock the phone. Of these participants, three of the four were non-experts. Other news stories drew mention as influences on authentication behavior, including compromise of biometric signatures in the Indian Aadhaar database and the 2013 Snowden leaks (p24, expert). 
+
+  
+ 
+\subsection{Non-experts and experts alike stop using biometrics because of usability problems}
+42.1\% of all participants described trying out but then abandoning some type of biometric unlocking (n=16, 9 experts), mostly attributed to usability problems and nearly evenly distributed between experts and everyday users (n=12, 7 experts). Many instances involved unreliable biometrics on older Windows laptops. One expert (p02) explained his frustration with the fingerprint reader on his Windows laptop, stating, ``Nobody is getting in there with a fingerprint, including me usually.'' 
+
+Others users stopped using biometrics because they simply felt that PIN entry quicker (n=2). However, several experts described security concerns that caused them to stop using a biometric unlocking method. One expert (p24) was alarmed enough by reported leaks of his phone's operating system code to stop using fingerprint recognition, while another (p05) disabled his laptop fingerprint reader after learning details of implementation in the operating system that he considered untrustworthy. One non-expert (p03) felt TouchID was too unreliable for regular unlocking and switched back to PIN use, but liked its added security enough to still use for authorizing purchases in applications. 
+
+44.7\% of all participants (n=17, 6 experts) also described other types of biometric usability problems. Again, many had struggles particularly with older laptop biometric unlocking. The most commonly described problem was relatively simple: wet or oily fingers not being read well (n=12, 4 experts). However, participants explained other theories for unlocking problems, including speculation that winter weather changes skin to make it unrecognizable, or that the phone itself might work less reliably when cold. Others guessed that the phone could only read fingerprints accurately at certain angles (n=2, 1 expert). Frustrated laptop facial recognition users, including experts, speculated that non-facial factors such as hairstyle or background lighting caused interference. A non-expert facial recognition user (p37) felt the feature very reliably identified him with different beard lengths, but failed if he switched from his regular sunglasses to his golf sunglasses.
+
+% \section{Additional findings on expert and non-expert misconceptions about biometrics}
+% **** COMMENT ME OUT BRO
+% We identified several themes that merit additional discussion and further study, that were less obvious in the overall body of responses. 
+% %themes related by relatively smaller portions of the user groups. While these responses were lower scoring relative to previously discussed observations, they are intriguing insights that merit additional discussion and further study. 
+% Some of these concepts developed in responses to questions added in later iterations of the semi-structured interview instrument, producing relatively fewer detailed responses. Also, some of these themes address facial recognition, which at the time of our questioning was only being recently introduced as a highly reliable unlocking method for smartphones, limiting the number of experienced participants. As such, the responses provide insight on cautious pre-adoption views of facial recognition by users who had already accepted fingerprint recognition, worthy of comparative analysis in the future. More broadly, these concepts provide hints at other concepts relevant to mobile biometric authentication users.
+
+% \subsection{Guessing at why biometrics fail} %MOVING THIS TO #6 (Both have usability problems)
+% Numerous participants (n=17, 6 experts) from both cohorts described apparent causes of usability problems with their biometric unlocking, particularly laptop facial recognition and smartphone fingerprint readers. The most commonly described of these problems was relatively simple: wet or oily fingers not being read well (n=12, 4 experts). However, other theories arose as to why their unlocking attempts failed, including speculation that winter weather changes skin to make it unrecognizable, or that the phone itself might work less reliably when cold. Others guessed that the phone could only read fingerprints accurately at certain angles (n=2, 1 expert). Similarly, frustrated laptop facial recognition users, including experts, developed guesses at why the feature would not identify them. One expert (p01) speculated that non-facial factors such as hairstyle or background lighting interfered with his Windows laptop facial unlocking.
+% %A lot of time I think it's the background lighting.'' 
+% A non-expert facial recognition user (p37) felt the feature very reliably identified him with different beard lengths, but failed if he switched from his regular sunglasses to his golf sunglasses.
+
+% \subsection{Apprehension towards facial recognition} MOVED INTO ANALYSIS - POINT 5
+% The number of current facial recognition users was low compared to fingerprint recognition. Participants mentioned two factors contributing to this. Apple FaceID was only recently released at the time of this inquiry, and some curious iOS users were not ready to upgrade to a compatible device. Other laptop-based facial recognition users had stopped use because of frequent false negatives. 18.4\% of all participants (n=7, 5 experts), who were current or prior users of other forms of biometric unlocking, expressed that they were already resolved to not immediately adopt facial recognition. A non-expert (p27) felt the approach was ``unnecessarily personal,'' and might be manipulatable if Facebook's algorithms for facial recognition were also hacked. One expert (p26, an academic security researcher) echoed a common sentiment that new technologies were generally untrustworthy, and he felt it ``would be better to wait to see how things play out.''
+
+% Given this lack of recent and direct experience with facial recognition, it evoked doubt and concern about its security that fingerprint recognition had largely overcome in the same users. The acceptance of one biometric method did not readily transfer to another, even on the same device. Experts who had overcome their doubts and become fingerprint recognition users still expressed similar concerns about facial recognition. Participant 05, a recent user of fingerprint recognition, saw facial recognition as ``still not controllable." Another expert (p35) thought it ``strange for social norms," easier to fake, and potentially discriminatory. Even participants who had accepted facial recognition expressed doubt. A non-expert (p09) was dubious of the feature ``doing lots of crazy stuff,'' % that he would be ``lying if I said I knew what all,'' he also understood that his ``face hash is local and anonymous.'' Despite this context, he still 
+% and found the prospect of his facial signature being compromised ``terrifying.''
+
+% \subsubsection{Context on fear of biometric signature compromise}
+% It is worth observing that major concerns that security conscious users commonly expressed about face and fingerprint recognition, namely that it could leak or be stolen off the device (rendering their face or fingerprint forever unusable), are not very likely. For example, Apple's TouchID feature (used by 57.9\% of the participants, the most commonly used biometric method) is stated to only collect the scan of the user's finger in a format that is not reconstructable as a fingerprint scan. The imagery is also not tagged with that user's identity, not uploaded anywhere off the device, and is only stored and encrypted locally. A secure boot chain, system software authorization processes, and unique session keys also control how an Apple device's processor and Secure Enclave exchange information about the fingerprint scan, lessening the likelihood that malware could easily spoof a component to obtain sensitive biometric information \cite{iOS_security}. 
+% Despite these safeguards, concern with biometric signature compromise  transferred to experts' approach to setting up deivce access. For example, several experts (p15 and p30) deliberately limited the number of fingers they would register, either to have a reserve fingerprint if all others were compromised by a data leak or to reduce the perceived possibility of false positives. This fear of signature data leaks was acute for some experts. One expert (p30) explained, ``I just assume it's going to get out at some point [his biometric signature]... I do think I will regret it. Hopefully not soon. Maybe it will only be iOS users.''
+
+\subsection{Changing Perceptions Over Time}
+Users noted a number of ways that their authentication approach had changed over time (n=13, 10 experts), but this type of observation was most commonly shared by experts. Their adjustments intended to add more security or try new methods with better usability and the same level of security. These security-enhancing actions included adding two-factor account authentication (p02), adding boot encryption to devices before travel (p04), and changing duplicate passwords (p15). One expert (p24) and non-expert (p37) also noted changes made after biometric adoption. p24 was comfortable enough with the security of fingerprint recognition on his phone to reduce his PIN from 6 to 4 digits for quicker entry and easier recall. Similarly, p37 shortened his screen lock time to make it less vulnerable if snatched, but felt that facial recognition unlocking was fast and reliable enough that more frequent unlocking produced by the change would not impose a time penalty.  
+
+Motivation for these changes, primarily made by experts, was keeping pace with hazards to secure mobile computing. Participants were asked about their preferred sources of trustworthy security information, which were likely same sources motivating their perception of risk and authentication changes. %M'kay
+These sources are shown in Table \ref{tab:info_sources}. There were a number of differences between experts and non-experts. As stated previously, there are demographic differences between the groups, which might also affect were users want to get news and information, but the users were prompted to describe specifically the trustworthy sources they use for researching mobile technology choices. Both groups favored in similar proportions tech-specific web news sites (n=13, 8 experts, e.g. CNET Tech Radar, Ars Technica, WIRED). Two sources were exclusive to experts. Academic research (p26 called this ``the tube I'm swimming in") was cited only by experts (n=6), as were publications of professional security organizations (n=5 experts, e.g. SANS Institute, FBI Infragard, Mandiant reports). Non-experts exclusively chose to ask (non-security trained) friends (n=5 non-experts). 
+
+\input{table_info_sources}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "main"
+%%% End:

@@ -1,0 +1,192 @@
+\section{Methods}
+\subsection{Objectives}
+We conducted a study comparing attitudes and experiences with adoption of
+biometric unlocking by security experts and non-expert users. We asked
+participants to describe and reflect on their own adoption of biometrics on
+personal or work-issued devices, their opinions of biometric usability and
+security during the adoption process, and if any of those views have changed
+since adoption (or instances of deciding to defer adoption).
+
+\subsection{Study Design and Procedure}
+To gather detailed responses to questions regarding a fairly broad range of
+topics, we decided to use semi-structured questioning. A set of research
+questions was used to generate a 41-question interview instrument, addressing
+basic participant demographics, mobile usage, and experiences and opinions on
+biometric authentication. Other topics included exposure to biometrics, BYOD and
+work-related authentication requirements, and possible concern towards spoofing
+or compromise of one's biometric signature. Questions were generated iteratively
+through a set of pilot interviews.
+
+All interviews were conducted by phone or audio Skype, lasting on average 32
+minutes. All participants were read an IRB notification describing the study and
+the handling procedures for their data, and their consent was recorded.
+Interviews were conducted, notated, and transcribed.
+
+\subsection{Participant Demographics and Sampling}
+In total, 38 participants were recruited, 19 security experts and 19 non-experts
+(detailed in Table ~\ref{tab:demographics}). Experts were recruited through
+personal networking amongst security researchers and developers to locate
+biometrics users, and through attendances at venues where experts would be
+present (e.g. security related conferences). Non-experts were recruited through
+a range of mailing lists. Individuals were carefully screened to ensure that
+they met criteria defined for each category.
+
+To fit under the category of 'expert', a review of comparable research standards
+for security expertise was conducted to identify an effective
+definition\reminder{cites}. We adopted a standard of one year of professional or research exposure to network security issues, which was intended to identify those with sensitizing exposure to privacy and network security concerns. Experience
+with usage of biometrics on a mobile device (current or previously) was also a requirement for the study for both experts and non-experts.
+
+Non-experts included individuals with no or more modest experience with
+security, who currently interact or had prior experience interacting with
+biometrics on mobile devices.  We tried to demographically balance the two
+samples for age and gender, but the expert cohort is somewhat older and more
+male. We have tried to address instances where this might have an effect upon
+analysis.
+
+The expert group consisted of 15 men and 4 women, with an average age of 50.7
+years, an average of 16.9 years of network security experience, and an average
+of 3.4 years of direct experience with biometric authentication. The non-expert
+group consisted of 12 males and 7 females, with an average age of 33.6 years and
+average of 2.5 years of direct experience using biometric authentication (as
+described with additional detail of biometric experience and mobile device use
+in Table ~\ref{tab:participantdetails}).
+
+Although we attempted to balance for age and gender, challenges were experienced
+in recruiting female security experts.  Research suggests that the gender
+balance in the cybersecurity industry is 11\% which roughly aligns with the
+21.1\% female gender balance of our expert cohort (although employment alone in
+that specific field was not a required attribute) \cite{cyber2016}.
+
+\subsection{Analysis of Transcripts}
+%update code count
+Inductive thematic analysis using four reviewers to identify themes from
+participant responses was used to identify themes from participant
+responses. Initial open coding was conducted with notes and audio from each
+interview to sensitize to any themes or observations, followed by axial
+coding. The codes were combined and deconflicted to produce a set of 76 mutually
+exclusive, descriptive themes. These were then further iterated and clarified. A
+subset of the interview transcripts (12.5\%) were reviewed by a fourth coder,
+and good inter-rater reliability was found (Cohen's Kappa coefficient
+(\(\kappa\)) = 0.72). A subset of codes are shown in Table
+\ref{tab:example_codes} \reminder{FIX THIS REF}. %A total of 76 codes were created and then revised and clarified through discussion among three researchers. %Subsequently, a fourth researcher coded a subset of interviews to establish inter-rater reliability $\kappa$-values using NVivo software, as described in section \ref{sec:coding}.
+
+Themes that emerged towards the end of the interview process were re-addressed with a subset of expert participants in short follow-up interviews. These included questions about emergent themes such as using biometrics on work-related versus personal devices, passcode sharing and biometric co-registration, and differences in concern regarding compromise of behavioral versus biometric signature data. 
+% \subsubsection{Coding}
+% \label{sec:coding}
+%Procedure subsection duplicates a lot of this coding description
+% We used inductive thematic analysis using two reviewers to identify themes from participant responses. Initial open coding was conducted with notes and audio from each interview to sensitize to any themes or observations. This also included review as necessary of research memos generated after each interview. As themes were added, past interview transcripts were recoded to assess for the emergent concepts and perform axial coding. After a review of the initial set of codes, we decided that a moderate level of granularity was appropriate to capturing impressions from the discussions. After conducting the full set of interviews, the codes were combined and deconflicted to produce a set of mutually exclusive, descriptive themes. These were then further iterated and clarified. A subset of the interview transcripts (12.5\%) were reviewed by a second coder, and good inter rate reliability was found (Cohen's Kappa coefficient (\(\kappa\)) = 0.72). A subset of codes are shown in Table \ref{tab:example_codes}.
+
+%\input{table_example_codes}
+
+ 
+
+% From the outset, it was assumed that participants would need to be drawn from a pool of security-exposed biometric users for half of the total cohort. In advance 
+%We conducted a review of comparable research standards for security expertise and developed an effective definition. This standard was intended to identify those whose professional or educational background would include exposure to privacy and network security concerns. These concerns would include issues like data leakage and compromise on mobile platforms, which might be unfamiliar to everyday users, but might influence security-sensitized users. 
+%in their potential adoption of new authentication methods. 
+%For recruitment we drew upon personal networking amongst security researchers and developers to locate biometrics users. This included attendees of the 2017 Annual Computer Security Applications Conference, as well as regional and university information security professional associations. Additional expert participants were then snowball sampled by referrals among security qualified biometric-using colleagues. 
+%Typically, these seemed to attract a slightly older demographic. 
+
+%Demographic factors have been shown to influence security informed behaviors, such as information sharing \cite{das2018breaking}. It is possible that is happening here as well. Further research utilizing additional methodological approaches will be necessary to establish this.  
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[t] %tables should use table macro not figure
+\resizebox{\linewidth}{!}{
+\begin{tabular}{c | r | c c | c || c c | c || c }
+& & \multicolumn{3}{c ||}{\em Expert} & \multicolumn{3}{c||}{\em Non-Expert} & {\em Total} \\
+\cline{3-9}
+                   & & M & F & Total & M & F & Total & \\
+\hline
+\multirow{6}{*}{Age} & <21 & 0 & 0 & 0 & 2 & 1 & 3 & 3 \\
+                   & 22-34 & 2 & 1 & 3 & 5 & 4 & 9 & 12 \\
+                   & 35-44 & 3 & 1 & 4 & 3 & 1 & 4 & 8 \\
+                   & 45-54 & 2 & 1 & 3 & 0 & 0 & 0 & 3 \\
+                   & 55-64 & 4 & 0 & 4 & 1 & 1 & 2 & 6 \\
+                   & >65   & 4 & 1 & 5 & 1 & 0 & 1 & 6 \\
+\hline
+\multirow{3}{*}{BAM use} & <1 yrs & 2 &1 & 3 & 0 & 1 & 1 & 4\\
+                       &1 to 2 yrs& 4 & 1 & 5 & 2 & 2 & 4 & 9 \\
+                       & >2 yrs & 8 & 1 & 9 & 7 & 3 & 10 & 19 \\
+\hline
+\multirow{3}{*}{Mobile OS} & iOS & 6 & 3 & 9 & 6 & 3 & 9 & 18 \\
+                        & Android & 7 & 0 & 7 & 1 & 3 & 4 & 11\\
+                        & Windows & 4 & 0 & 4 & 0 & 3  & 3 & 7\\
+                        \hline
+\multicolumn{2}{r|}{{\em Total}} & 15 & 4 & 19 & 12 & 7 & 19 & 38\\
+\end{tabular}
+}
+\vspace{.1in} %add a bit space to make pretty
+  \caption{Participant demographics.} %captions go below!
+  \label{tab:demographics}
+\end{table} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{table_part_details}
+\begin{table*}[t]
+\centering
+\small
+\resizebox{\linewidth}{!}{
+\begin{tabular}{ c | c | c | c | c | c | c | c  }\\
+Participant \# & Expertise & Expert Domain & Netsec. Experience (Yrs.) & Age & Gender & Current Biometric OS/Device & Biometric Use  \\
+\hline
+1 & Expert & Gov \& Industry & 40 & 70 & M & iPhone \& Win10 laptop & 2 yrs (face) \& 1 yr (finger)\\
+2 & Expert & Gov \& research & 2 & 25 & M & Android Oxygen (phone) \& Win10 laptop & 2 yrs (phone) \& 5 yrs (laptop) \\
+3 & Non-expert &  &  & 21 & M & iPhone & 3 yrs\\
+4 & Expert & Gov \& Research & 21 & 45 & F & iPhone \& iPad) & 3 yrs (phone) \& 1.5 yrs (iPad) \\
+5 & Expert & Industry & 12 & 42 & M & Win10 laptop & 4 mos \\
+6 & Non-expert &  &  & 42 & F & iPhone) & 2 yrs \\
+7 & Non-expert &  &  & 33 & F & iPhone 6) & 1 yr \\
+8 & Non-expert &  &  & 22 & M & iPhone 5) & 4yrs \\
+9 & Non-expert &  &  & 34 & M & iPhone 10 (FaceID) \& iPad) & 2-3 yrs (TID) \& 3-4 yrs (FID)\\
+10 & Non-expert &  &  & 21 & F & iPhone 5s \& iPad & 3 yrs (iPad) \& 6 mos (phone) \\
+11 & Non-expert &  &  & 22 & F & iPhone 6 & 3 yrs \\
+12 & Non-expert &  &  & 26 & M & Pixel 2 XL (Android) & 2-3 mos (Pixel) and 3 yrs (old Nexus 6P)\\
+13 & Non-expert &  &  & 21 & M & iPhone 7 & 2 yrs \\
+14 & Expert & Gov \& Industry & 20 & 70 & M & Samsung Edge 7 (Android) & 1.5 yrs \\
+15 & Expert & Gov \& Industry & 30 & 70 & M & iPhone 6c \& Lenovo Win10 Laptop & 5 yrs \\
+16 & Expert & Gov \& Industry & 25 & 66 & M & Android Samsung S8 (Android) & 10 mos \\
+17 & Non-expert &  &  & 23 & F & iPhone 6 & 10 mos (incl. 7 mos. previous device) \\
+18 & Expert & Gov \& Industry & 27 & 64 & M & iPhone 7 & 1 yr\\
+19 & Expert & Gov \& Industry & 30 & 56 & M & iPhone 6 & 2 yrs\\
+20 & Expert & Gov \& Industry & 20 & 52 & M & Galaxy 8S (Android) & 1 yr (incl. previous Galaxy 7)\\
+21 & Expert & Industry & 2 & 39 & F & iPhone 6 & 6 mos\\
+22 & Non-expert &  &  & 24 & M & Samsung S6 Edge (Android) & 3 yrs\\
+23 & Non-expert &  &  & 27 & M & iPhone 6s \& Win (Surface \& old Toshiba) & 7 yrs \\
+24 & Expert & Academia & 3 & 29 & M & iPhone 6 & 2 yrs\\
+25 & Expert & Academia \& Industry & 4 & 54 & M & Android Samsung S6, iPad Pro, \& prev. laptop & 2 yrs \\
+26 & Expert & Academia & 17 & 38 & M & iPhone 6S & 2 yrs \\
+27 & Non-expert &  &  & 29 & F & Android Google Pixel, iPad Pro & 1.5 yr \\
+28 & Expert & Industry \& Academia & 20 & 42 & M & Android Google Pixel 2 & 3 yrs \\
+29 & Non-expert &  &  & 27 & M & None (prev. Win10 laptop \& Android S6) & 1 yr \\
+30 & Expert & Academia & 20 & 59 & M & Android Motorola & 1 yr\\
+31 & Expert & Gov \& Industry & 20 & 65 & F & iPhone \& iPad) & 1 yr (on/off)\\
+32 & Non-expert &  &  & 58 & F & Android Samsung Galaxy & 3 mos.\\
+33 & Expert & Industry & 5 & 54 & M & iPhone 6S \& iPad Pro) & >20 yrs. \\
+34 & Non-expert &  &  & 56 & M & Android Samsung Galaxy Edge & 1.5 yrs. \\
+35 & Expert & Academia & 3 & 23 & F & iPhone & 2 yrs. \\
+36 & Non-expert &  &  & 66 & M & iPhone X \& Win laptop & 3 yrs. \\
+37 & Non-expert &  &  & 43 & M & iPhone \& iPad & 2 yrs. \\
+38 & Non-expert &  &  & 38 & M & iPhone 5S \& Win laptop & 4.5 yrs. \\
+\end{tabular}
+
+}
+\vspace{.1in} %add a bit space to make pretty
+  \caption{Details of participant experience.} %captions go below!
+    \label{tab:participantdetails}
+\end{table*} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \subsection{Coding}
+% \label{sec:coding}
+% %Procedure subsection duplicates a lot of this coding description
+% We used inductive thematic analysis using two reviewers to identify themes from participant responses. Initial open coding was conducted with notes and audio from each interview to sensitize to any themes or observations. This also included review as necessary of research memos generated after each interview. As themes were added, past interview transcripts were recoded to assess for the emergent concepts and perform axial coding. After a review of the initial set of codes, we decided that a moderate level of granularity was appropriate to capturing impressions from the discussions. After conducting the full set of interviews, the codes were combined and deconflicted to produce a set of mutually exclusive, descriptive themes. These were then further iterated and clarified. A subset of the interview transcripts (12.5\%) were reviewed by a second coder, and good inter rate reliability was found (Cohen's Kappa coefficient (\(\kappa\)) = 0.72). A subset of codes are shown in Table \ref{tab:example_codes}.
+
+\input{table_example_codes}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "main"
+%%% End:

@@ -1,0 +1,162 @@
+\section{Discussion and Implications}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Be nice to center the column headings
+
+\begin{table*}[t]
+%\begin{table}
+\scriptsize
+
+  %\centering
+% 	\begin{tabular}{ p {3cm} | p {3cm} | p {3cm} }\\
+\begin{tabularx}{\textwidth}{ X | X | X }
+     \multicolumn{1}{c|}{\bf Experts} & \multicolumn{1}{c|}{\bf Both} & \multicolumn{1}{c}{\bf Non-Experts} \\
+    \midrule
+    \begin{itemize}
+    \item More influenced by work and BYOD requirements than non-experts
+    \item More likely to have used BAM immediately when available than non-experts
+    \item Change authentication approach more frequently than non-experts
+    \item Device choices more influenced by security concern compared to non-experts
+    %\item Use professional security organizations and academic research as input for technology choices
+    %May not address this in Analysis
+    \end{itemize} 
+    &
+    \begin{itemize}
+    \item Frequently mistake biometric unlocking as the primary rather than secondary method
+    \item Equally likely to have stopped using biometric unlocking because of usability problems
+    \item Security concern motivated by fear of physical loss/theft
+        %May not address this in Analysis
+    %\item Use tech-specific new sources as input on device choices
+        %May not address this in Analysis
+    \item Similar proportions initially thought consumer biometrics were a bad idea
+    \end{itemize} 
+    & 
+    \begin{itemize}
+    \item Less concerned than experts about compromise of their biometric signatures
+    \item Less afraid than experts of using biometric unlocking on mobile payment/banking apps
+    %\item Use friends as input for device choices
+        %May not address this in Analysis
+    \item Less likely than experts to have initially thought consumer biometrics were a good idea
+    \end{itemize} 
+    \\
+
+  \end{tabularx}
+  \caption{Overview of findings, by participant experience}
+\label{tab:overview}
+%THIS WAS A PAIN IN THE ASS
+\end{table*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Tailored education needed to improve trust with security-informed users}
+Experts clearly expressed more concern about mobile security, e.g., feared their
+biometric data being leaked (n=6, all experts), and concurrently showed
+enthusiasm for adoption of biometrics, e.g., experts were more likely to try
+biometrics immediately rather than wait (n=14, 11 experts). Given these observations, experts appear very motivated to improve security using biometrics, but more dubious about the integrity of mobile platforms, compared to everyday users. This distrust was acute towards mobile financial applications (13 users, only 3 experts). Researchers have described similar instances in which users' misunderstanding and lack of security knowledge was a disincentive to adoption of systems such as mobile tap-and-pay \cite{huh2017don} and two-factor authentication \cite{ion2015no}. Methods of invoking greater trust in biometric security for sensitive transactions would offer promise by explaining underlying protections in mobile operating systems and applications (obviously assuming they are correctly applied). We also believe such outreach would improve adoption more broadly, not just for expert users. 
+
+Without such guidance, all users appear willing to form incomplete models of security from alternative sources. Non-expert and expert users are both aware of topical issues with mobile authentication and spoofing attacks. News stories such as the FBI attempting to unlock the San Bernardino shooters' iPhones (n=4, 2 experts) and online news articles about biometric spoofing (n=7, 3 experts) were both mentioned by similar rates of experts and non-experts and impacted the understanding of biometrics in both groups. Experts also spoke to concerns that seemed to re-purpose their existing knowledge of conventional network security concerns (e..g malware keylogging or exfiltrating data) by projecting it onto the architecture of their mobile devices, which could be addressed by tailored education. Notably, there were several venues both expert and non-experts chose for trustworthy technology information (e.g. online technology news sites), or that were exclusively chosen by experts (e.g. academic studies on security and publications of professional security organizations) \reminder{cite table 5}. This picture of where different types of users go with their security questions suggests the appropriate venues for appropriately educating users. 
+
+% While these findings suggest that experts are motivated to try out biometrics
+% for purposes of mobile authentication, when compared to everyday users, they
+% tend to be cautious towards securing sensitive data or accessing financial
+% applications using these methods. Notably, of 13 participants who reported using
+% biometrics to authorize payment or banking apps, only 3 were experts.
+
+%News stories such as these may or may not be entirely accurate or sensationalist, but they clearly 
+% These stories made a broad impact with both user groups. Concurrently, other misconceptions were shared by both groups, such as incorrectly assuming biometric authentication to be primary (n=19, 8 experts).
+% However, similar misconceptions were more specific to a single group. Several experts reported having read the manufacturer whitepapers that described the system integration of biometric unlocking, such as the iOS TouchID document published by Apple. However, all of those still reporting acute concern that the biometric signature they provided could be stolen or manipulated, and rendered permanently unusable, were experts (n=6, all experts).
+% Like expert distrust of mobile banking, many users surveyed (while cognizant of the basics of fingerprint and facial unlocking) were unaware of how to use these functions for application control or co-registration for unlocking. If more
+% users are to be persuaded to use these methods for more sensitive transaction control it appears very clear that those projected concerns must be addressed, and it may be possible tailor the education to meet the current technical
+% understanding.  %Expert users appear to have carried over networks security
+% concerns onto the implementation of mobile biometrics, and assume that where
+% malware might keylog passwords or exfiltrate data off networked desktop systems
+% translates easily to their current mobile architecture. Tailored education that
+% can address concern at varying levels of technical expertise could be successful
+% in influencing timely adoption of effective security practices.  Prior research
+% suggests this could be effective.
+% Researchers have described instances in which users' misunderstanding and lack of security knowledge was a disincentive to adoption of systems such as mobile tap-and-pay \cite{huh2017don} and two-factor authetication \cite{ion2015no}.
+
+%Further information regarding differences between groups is shown in Table \ref{tab:overview}.
+
+\subsubsection{Designing for sharing}
+Given how many activities are entrusted to mobile devices, it is unsurprising
+that both experts and non-experts shared devices with family and friends. %This
+%choice was attributed to convenience for routine task sharing and safety for
+%emergencies. This sort of sharing appears inevitable among close personal associations as mobile devices are a locus for communication for work, travel, and entertainment. Individuals may share devices within families, friendships, couples, work associations or groups.
+Several factors were found to shape biometric co-registration, such as not
+understanding that it was possible (p32, non-expert) and impromptu nature of
+device sharing with family members (p25, expert). In both cases these obstacles
+prevented co-registration.  Deep and unfamiliar device setting menus did not support users otherwise cognizant of biometrics from discovering and implementing co-registration they might have favored. Biometric setup dialogs could assist with this by more clearly indicating how related features work and presenting associated risks and benefits. %for informed consideration.
+
+\subsubsection{Consideration for work environments}
+Participants described a number of issues with authenticating on devices supplied by an employer or co-employed for personal activities and work ( a ``blurry line," as p32 put it).
+% In several cases (p01 and p05, both experts), the
+% security configuration of work devices was specified by contract terms by a
+% client.
+In these instances, the users wanted to meet work-imposed
+obligations, but also add security features that were both secure and usable for frequent routine unlocking. In several cases (p01 and p05, both experts) the usability of work-required biometric features was frustrating and inadequate, and use was discontinued. \reminder{BUT SO WHAT? WHATS IMPLICATION HERE} %The significance of this is found to previous research. For example, Bhagavatula et al. looked at relative acceptance rates of several biometric and passcode authentication methods and found user preference for biometric usability, congruent to this implication \cite{bhagavatula2015biometric}.
+
+% Another expert user (p18, a government and industry security developer) said that they would simply not use a mobile device for sensitive work purposes at all, because he viewed both Apple and Android platforms as too insecure compared to his old favored Blackberry. 
+
+BYOD difficulties and concern were exacerbated by authenticating while traveling (e.g. experts p04 and p24), which often imposed exposure to observation in public spaces and untrustworthy wireless connections. Similarly, work requirements for authentication might be deemed inflexible for not acknowledging devices that never left secure spaces (e.g. expert p25). %  An expert participant (p25)
+% was frustrated by university security requirements that required authentication
+% for email applications, that he knew was unnecessary because the device never
+% left his home. Two other expert users (p04 and p24) also mentioned special
+% measures (disabling biometrics and enabling boot encryption) that they felt were
+% necessary when they traveled with a work device.
+From these responses, we would suggest that BYOD policies should account for public and private usage to avoid complicating authentication and security configuration headaches that may ultimately only frustrate and demotivate users.
+
+% \subsubsection{Need for tailored education} FOLDED THIS INTO FIRST IMPLICATION
+% Non-expert and expert users are both aware of issues with mobile authentication and spoofing attacks. News stories such as the FBI attempting to unlock the San Bernardino shooters' iPhones (n=4, 2 experts) and online news articles about biometric spoofing (n=7, 3 experts) were both mentioned by similar rates of experts and non-experts and impacted the understanding of biometrics in both groups. % %News stories such as these may or may not be entirely accurate or sensationalist, but they clearly 
+% These stories made a broad impact with both user groups. Concurrently, other misconceptions were shared by both groups, such as incorrectly assuming biometric authentication to be primary (n=19, 8 experts).
+% However, similar misconceptions were more specific to a single group. Several experts reported having read the manufacturer whitepapers that described the system integration of biometric unlocking, such as the iOS TouchID document published by Apple. However, all of those still reporting acute concern that the biometric signature they provided could be stolen or manipulated, and rendered permanently unusable, were experts (n=6, all experts).
+% While device manufacturers and service providers have largely succeeded in making users aware of the basic use cases for fingerprint and facial recognition as an unlocking mechanism, not all users surveyed knew about using these functions for application control or co-registration for unlocking. If more
+% users are to be persuaded to use these methods for more sensitive transaction control it appears very clear that those projected concerns must be addressed, and it may be possible tailor the education to meet the current technical
+% understanding. %Expert users appear to have carried over networks security
+% concerns onto the implementation of mobile biometrics, and assume that where
+% malware might keylog passwords or exfiltrate data off networked desktop systems
+% translates easily to their current mobile architecture. Tailored education that
+% can address concern at varying levels of technical expertise could be successful
+% in influencing timely adoption of effective security practices.  Prior research
+% suggests this could be effective.
+% For example, Huh et al. examined the perspective of Apple and Android tap-and-pay users and those who refused to use these types of mobile payment systems \cite{huh2017don}. Non-users cited security as the main deterrent to their adoption, but also often misunderstood how credit card is secured and communicated by the mobile device, and a related correlation was found between user security knowledge regarding the system and adoption. Similarly, Ion et al. also compared security expert and non-expert web security practices, and found expert-favored measures such as two factor authentication were underutilized by non-experts. As with Huh et al. this was attributed to difficulty in educating non-experts in how and why to carry out the practice \cite{ion2015no}.
+
+% Similarly, the security knowledge of our expert cohort also aligned with early adoption of biometrics when they became available and willingness to recommend biometrics to others. Often these users cited (in addition to liking the usability of biometrics) their knowledge of the shortcomings of common what-you-know passcode security as motivation for adoption. At the same time, however, that knowledge of mobile computing risk made security-informed users cautious towards trusting the platform with especially sensitive transactions, as demonstrated by the low expert turnout for using biometric unlocking of payment and banking apps. 
+
+% Notably, there are several venues for trustworthy technology information that were found to be either shared with everyday users (such as online technology news sites) or exclusive to the security conscious experts in this study, including academic studies on security and publications of professional security organizations. A picture of where different types of users go with related questions may suggest suitable venues for vulnerability comparisons to educate users appropriately.  
+
+
+%           AJA-- I removed this one to make space. It was the weakest of the bunch, in mind
+%
+% \subsubsection{Responsiveness to Changing Perceptions}
+% Additionally, we have illustrated that security informed users will update their
+% understanding of risk and adjust their authentication practices (n=13, 10
+% experts) but also contend with the same usability frustration as everyday users
+% (e.g. halting use of a biometric method, n=23, 9 experts). Developers adding
+% features to allow easier device sharing or work friendly authentication should
+% inculcate these findings and consider the moving target presented by users'
+% changing perception of what constitutes effective authentication. Adding
+% reliable biometric authentication to devices and software should include support
+% for these important but ancillary user expectations. The relatively more
+% frequent modification of authentication behavior and demonstrated attraction to
+% security specific information sources by experts in this cohort underscore a
+% design imperative for developers. Remaining responsive to changes in the
+% shifting perceptions and motivations of security informed users will better
+% direct support to the needs of users generally that are more concerned with
+% protecting their data and devices.
+
+% *********** PARTED OUT TO DISCUSSION SECTIONS
+%\subsubsection{Research context of our findings}
+%A number of related studies assist in contextualizing the views established here. Huh et al. examined the perspective of Apple and Android tap-and-pay users and those who refused to use these types of mobile payment systems \cite{huh2017don}. Users most valued usability, while non-users cited security as the main deterrent to their adoption. Non-users also often misunderstood how credit card is secured and communicated by the mobile device, and a related correlation was found between user security knowledge regarding the system and adoption. Ion et al. also compared security expert and non-expert web security practices, and found expert-favored measures such as two factor authentication were underutilized by non-experts. As with Huh et al. this was attributed to difficulty in educating non-experts in how and why to carry out the practice \cite{ion2015no}. Similarly, the security knowledge of our expert cohort also aligned with early adoption of biometrics when they became available and willingness to recommend biometrics to others. Often these users cited (in addition to liking the usability of biometrics) their knowledge of the shortcomings of common what-you-know passcode security as motivation for adoption. At the same time, however, that knowledge of mobile computing risk made security-informed users cautious towards trusting the platform with especially sensitive transactions, as demonstrated by the low expert turnout for using biometric unlocking of payment and banking apps. 
+
+%A similar construct to our security-consciousness in expert users and the sensitizing security knowledge addressed by Huh et al. is the Security Behavioral Intention (SBI) addressed by Das et al. ``Just in time'' surveys were conducted following security and privacy related news events to understand news sharing behavior \cite{das2018breaking}. Along with age and gender, interaction effects were found for SBI with sharing this type of news. Those scoring highly in their intention to exercise security behaviors correlated with getting security and privacy news online, and sharing it with partners and colleagues. The overlap with our findings is somewhat limited. In our study, experts (who presumably have a higher overall intention towards security than our non-experts) did not demonstrate a particularly higher proclivity for using online tech news sources when researching the trustworthiness of their personal devices (n=13, 8 experts). Not surprisingly, experts were exclusive in their use of professional security news (e.g. SANS newsletter, FBI Infragard alerts) for this purpose (n=5, 5 experts). This does suggest agreement with Das et al. that users sensitized to security will seek out and potentially share specialized security and privacy news online. However, we found that the willingness to recommend biometric authentication to others (possibly a corollary to online new sharing) was a fairly evenly distributed between our security conscious and everyday users (n=19, 10 experts).
+
+% Bhagavatula et al. looked more specifically at relative acceptance rates of several biometric and passcode authentication methods regarding a series of mobile computing tasks of varying sensitivity \cite{bhagavatula2015biometric}. A number of observations were made that are congruent to ours, around general user preferences for the security and usability offered by biometrics. Convenience and usability were found to be key adoption factors. iPhone TouchID had a higher rate of adoption and preference than Android face ID and PIN and was perceived as more secure and convenient than PIN. The prevalence of fingerprint recognition in our sample, relative to other biometric methods, accords with the higher rate of adoption of this unlocking method found in their study. Our expert and non-expert users also generally attested to the importance of convenience and usability offered by biometric unlocking, which Bhagavatula et al. found. Similar small usability problems with fingerprint recognition (e.g. humidity and wet fingers) are reported in both studies as well. In contrast, there were instances of disparity. We interviewed an expert user (p05) who diverged from Bhagavatula et al. in having stopped using biometrics because he felt they were less secure than passcode authentication, and a non-expert (p32) who had also stopped because she felt they were less convenient than PIN unlocking. 
+
+% A facet of this tension towards adoption (concern with data compromise competing with enthusiasm for trying new security measures) is the potential for some experts to totally embrace the risk they see as inherent in mobile platforms in return for convenience, with the firm conviction that they will only allow a very minimal amount of personal data to touch the device. They view that data as only including information they would not care about having compromised. Experts expressed this view in Wolf et al. towards mobile authentication (not biometrics generally) \cite{wolf2018empirical}. Security conscious users related turning off or avoiding features they did not need, and only accepted communication and apps that they saw as minimally exploitable. Several experts in our study related this type of fatalistic outlook regarding biometric authentication specifically, given their assumption that their fingerprint signature would inevitably be leaked.
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "main"
+%%% End:
